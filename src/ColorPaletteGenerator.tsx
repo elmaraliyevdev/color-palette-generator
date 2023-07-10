@@ -6,7 +6,7 @@ import Notification from "./Notification";
 const ColorPaletteGenerator: React.FC = () => {
     const [colors, setColors] = useState([randomColor(), randomColor(), randomColor(), randomColor()]);
     const [show, setShow] = useState(false);
-    
+
     useEffect(() => {
         setColors([randomColor(), randomColor(), randomColor(), randomColor()]);
     }, [])
